@@ -1,7 +1,7 @@
 WHITESPACE = _{ " " | "\t" }
 SPACE = _{ WHITESPACE+ }
 
-product_name = { "*Product " ~ product_num ~ "*: " ~ (!NEWLINE ~ ANY)+ ~ NEWLINE }
+product_name = { "*Product " ~ product_num ~ "*:" ~ SPACE?  ~ (!NEWLINE ~ ANY)+ ~ NEWLINE }
 user_ratings = { "*User Ratings*:" ~ SPACE? ~ number_list  ~ NEWLINE }
 product_num = { ASCII_DIGIT+ }
 
