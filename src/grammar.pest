@@ -1,0 +1,9 @@
+WHITESPACE = _{ " " | "\t" }
+SPACE = _{ WHITESPACE+ }
+
+product_name = { "*Product " ~ product_num ~ "*: " ~ (!NEWLINE ~ ANY)+ ~ NEWLINE }
+user_ratings = { "*User Ratings*:" ~ SPACE? ~ number_list  ~ NEWLINE }
+product_num = { ASCII_DIGIT+ }
+
+number = { ("-"? ~ ASCII_DIGIT+) ~ (("." ~ ASCII_DIGIT+)?) }
+number_list = { "[" ~ number ~ ("," ~ SPACE? ~ number)* ~ "]"}

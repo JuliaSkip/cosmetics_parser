@@ -1,0 +1,11 @@
+[package]
+name = "cosmetics_parser"
+version = "0.1.0"
+edition = "2021"
+
+description = "A Rust-based parser to extract product details from cosmetics catalogs in markdown format and output them in structured formats like JSON or Rust structs."
+
+[dependencies]
+anyhow = "1.0.91"
+pest = "2.7.14"
+pest_derive = "2.7.14"
