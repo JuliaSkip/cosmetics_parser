@@ -1,0 +1,83 @@
+*Product 1*: Face Cream "Moisturizing"
+*Skin Type*: Dry Skin  
+*Ingredients*: Water, Glycerin, Hyaluronic Acid, Jojoba Oil  
+*Rating*: 4.5  
+*Price*: 299.99 UAH  
+*User Ratings*: [5, 4, 5, 3, 4]  
+*Recommendations*: Use in the morning and evening after cleansing the skin. Suitable for sensitive skin.  
+*Reviews*:  
+1. "Provides excellent protection! No sunburn after hours at the beach."  
+*Availability*: false  
+
+*Product 2*: Sunscreen "SPF 50+ Ultra Protection"  
+*Skin Type*: All Skin Types  
+*Ingredients*: Zinc Oxide, Titanium Dioxide, Aloe Vera, Vitamin E  
+*Rating*: 4.7  
+*Price*: 349.99 UAH  
+*User Ratings*: [5, 5, 4, 5, 5]  
+*Recommendations*: Apply generously 15 minutes before sun exposure. Reapply every 2 hours for continuous protection.  
+*Reviews*:  
+1. "Provides excellent protection! No sunburn after hours at the beach."  
+2. "Feels light on the skin and doesn’t leave a white cast."  
+*Availability*: true  
+
+*Product 3*: Night Serum "Revitalizing"  
+*Skin Type*: Oily/Combination Skin  
+*Ingredients*: Retinol, Niacinamide, Green Tea Extract, Squalane  
+*Rating*: 4.3  
+*Price*: 599.99 UAH  
+*User Ratings*: [5, 3, 4, 5, 4]  
+*Recommendations*: Apply a few drops to clean skin at night. Follow with a moisturizer. Avoid using with other active ingredients.  
+*Reviews*:  
+1. "My skin feels smoother and brighter after a week of use!"  
+2. "A bit strong at first, but great for oily skin control."  
+*Availability*: true  
+
+*Product 4*: Body Lotion "Silk Touch"  
+*Skin Type*: Normal to Dry Skin  
+*Ingredients*: Shea Butter, Coconut Oil, Vitamin C, Almond Oil  
+*Rating*: 4.8  
+*Price*: 199.99 UAH  
+*User Ratings*: [5, 4, 5, 5, 5]  
+*Recommendations*: Apply generously after a shower to lock in moisture. Suitable for daily use.  
+*Reviews*:  
+1. "Leaves my skin super soft and hydrated."  
+2. "Smells amazing and doesn’t feel greasy."  
+*Availability*: true  
+
+*Product 5*: Eye Cream "Anti-Aging"  
+*Skin Type*: Mature Skin  
+*Ingredients*: Caffeine, Peptides, Hyaluronic Acid, Aloe Vera  
+*Rating*: 4.6  
+*Price*: 450.00 UAH  
+*User Ratings*: [5, 4, 5, 4, 4]  
+*Recommendations*: Gently apply a small amount around the eye area morning and night.  
+*Reviews*:  
+1. "Noticeably reduces puffiness around my eyes!"  
+2. "Very soothing and hydrating for delicate skin."  
+*Availability*: true  
+
+*Product 6*: Lip Balm "Nourishing"  
+*Skin Type*: All Skin Types  
+*Ingredients*: Beeswax, Coconut Oil, Vitamin E, Peppermint Oil  
+*Rating*: 4.2  
+*Price*: 59.99 UAH  
+*User Ratings*: [4, 4, 5, 3, 4]  
+*Recommendations*: Apply as needed throughout the day to prevent chapping.  
+*Reviews*:  
+1. "Keeps my lips soft all day, even in winter!"  
+2. "The peppermint scent is refreshing but not too strong."  
+*Availability*: true  
+
+*Product 7*: Face Mask "Deep Cleansing Clay"  
+*Skin Type*: Oily Skin  
+*Ingredients*: Bentonite Clay, Charcoal, Tea Tree Oil, Aloe Vera  
+*Rating*: 4.4  
+*Price*: 249.99 UAH  
+*User Ratings*: [5, 4, 4, 5, 3]  
+*Recommendations*: Apply a thin layer to clean skin, leave for 10-15 minutes, and rinse with warm water. Use 1-2 times a week.  
+*Reviews*:  
+1. "Great for reducing excess oil without drying out my skin."  
+2. "My pores look visibly smaller after each use!"  
+*Availability*: true  
+

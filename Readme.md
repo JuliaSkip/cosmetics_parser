@@ -29,7 +29,7 @@ The input is processed line by line, and the parser extracts relevant data from 
 *Product 1*: Face Cream "Moisturizing"
 *Skin Type*: Dry Skin
 *Ingredients*: Water, Glycerin, Hyaluronic Acid, Jojoba Oil
-*Rating*: 4.5/5
+*Rating*: 4.5
 *Price*: 299.99 UAH
 *User Ratings*: [5, 4, 5, 3, 4]
 *Recommendations*: Use in the morning and evening after cleansing the skin. Suitable for sensitive skin.

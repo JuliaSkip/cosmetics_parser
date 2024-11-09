@@ -1,0 +1,141 @@
+[
+  {
+    "product_name": "Face Cream \"Moisturizing\"",
+    "skin_type": "Dry Skin",
+    "ingredients": "Water, Glycerin, Hyaluronic Acid, Jojoba Oil",
+    "rating": 4.5,
+    "price": 299.99,
+    "user_ratings": [
+      5.0,
+      4.0,
+      5.0,
+      3.0,
+      4.0
+    ],
+    "recommendations": "Use in the morning and evening after cleansing the skin. Suitable for sensitive skin.",
+    "reviews": [
+      "1. \"Provides excellent protection! No sunburn after hours at the beach.\""
+    ],
+    "availability": false
+  },
+  {
+    "product_name": "Sunscreen \"SPF 50+ Ultra Protection\"",
+    "skin_type": "All Skin Types",
+    "ingredients": "Zinc Oxide, Titanium Dioxide, Aloe Vera, Vitamin E",
+    "rating": 4.7,
+    "price": 349.99,
+    "user_ratings": [
+      5.0,
+      5.0,
+      4.0,
+      5.0,
+      5.0
+    ],
+    "recommendations": "Apply generously 15 minutes before sun exposure. Reapply every 2 hours for continuous protection.",
+    "reviews": [
+      "1. \"Provides excellent protection! No sunburn after hours at the beach.\"",
+      "2. \"Feels light on the skin and doesn’t leave a white cast.\""
+    ],
+    "availability": true
+  },
+  {
+    "product_name": "Night Serum \"Revitalizing\"",
+    "skin_type": "Oily/Combination Skin",
+    "ingredients": "Retinol, Niacinamide, Green Tea Extract, Squalane",
+    "rating": 4.3,
+    "price": 599.99,
+    "user_ratings": [
+      5.0,
+      3.0,
+      4.0,
+      5.0,
+      4.0
+    ],
+    "recommendations": "Apply a few drops to clean skin at night. Follow with a moisturizer. Avoid using with other active ingredients.",
+    "reviews": [
+      "1. \"My skin feels smoother and brighter after a week of use!\"",
+      "2. \"A bit strong at first, but great for oily skin control.\""
+    ],
+    "availability": true
+  },
+  {
+    "product_name": "Body Lotion \"Silk Touch\"",
+    "skin_type": "Normal to Dry Skin",
+    "ingredients": "Shea Butter, Coconut Oil, Vitamin C, Almond Oil",
+    "rating": 4.8,
+    "price": 199.99,
+    "user_ratings": [
+      5.0,
+      4.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "recommendations": "Apply generously after a shower to lock in moisture. Suitable for daily use.",
+    "reviews": [
+      "1. \"Leaves my skin super soft and hydrated.\"",
+      "2. \"Smells amazing and doesn’t feel greasy.\""
+    ],
+    "availability": true
+  },
+  {
+    "product_name": "Eye Cream \"Anti-Aging\"",
+    "skin_type": "Mature Skin",
+    "ingredients": "Caffeine, Peptides, Hyaluronic Acid, Aloe Vera",
+    "rating": 4.6,
+    "price": 450.0,
+    "user_ratings": [
+      5.0,
+      4.0,
+      5.0,
+      4.0,
+      4.0
+    ],
+    "recommendations": "Gently apply a small amount around the eye area morning and night.",
+    "reviews": [
+      "1. \"Noticeably reduces puffiness around my eyes!\"",
+      "2. \"Very soothing and hydrating for delicate skin.\""
+    ],
+    "availability": true
+  },
+  {
+    "product_name": "Lip Balm \"Nourishing\"",
+    "skin_type": "All Skin Types",
+    "ingredients": "Beeswax, Coconut Oil, Vitamin E, Peppermint Oil",
+    "rating": 4.2,
+    "price": 59.99,
+    "user_ratings": [
+      4.0,
+      4.0,
+      5.0,
+      3.0,
+      4.0
+    ],
+    "recommendations": "Apply as needed throughout the day to prevent chapping.",
+    "reviews": [
+      "1. \"Keeps my lips soft all day, even in winter!\"",
+      "2. \"The peppermint scent is refreshing but not too strong.\""
+    ],
+    "availability": true
+  },
+  {
+    "product_name": "Face Mask \"Deep Cleansing Clay\"",
+    "skin_type": "Oily Skin",
+    "ingredients": "Bentonite Clay, Charcoal, Tea Tree Oil, Aloe Vera",
+    "rating": 4.4,
+    "price": 249.99,
+    "user_ratings": [
+      5.0,
+      4.0,
+      4.0,
+      5.0,
+      3.0
+    ],
+    "recommendations": "Apply a thin layer to clean skin, leave for 10-15 minutes, and rinse with warm water. Use 1-2 times a week.",
+    "reviews": [
+      "1. \"Great for reducing excess oil without drying out my skin.\"",
+      "2. \"My pores look visibly smaller after each use!\""
+    ],
+    "availability": true
+  }
+]
