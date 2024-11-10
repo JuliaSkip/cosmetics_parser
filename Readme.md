@@ -1,7 +1,7 @@
-# CosmeticsParser
+# cosmetics_parser
 
 ## Overview
-`CosmeticsParser` is a Rust-based parser designed to extract information from a cosmetics catalog written in a human-readable markdown format. The input consists of product descriptions that include details such as product name, skin type, ingredients, ratings, price, user reviews, and availability.
+`cosmetics_parser` is a Rust-based parser designed to extract information from a cosmetics catalog written in a human-readable markdown format. The input consists of product descriptions that include details such as product name, skin type, ingredients, ratings, price, user reviews, and availability.
 
 The parser reads these product descriptions and converts them into a structured data format, which can be used for further processing, analysis, or presentation in an online cosmetics store application.
 
@@ -35,25 +35,29 @@ The input is processed line by line, and the parser extracts relevant data from 
 *Recommendations*: Use in the morning and evening after cleansing the skin. Suitable for sensitive skin.
 *Reviews*:
 1.	"This cream perfectly moisturizes my skin. It absorbs easily!"
-2.	"No excessive shine, perfect for autumn."
 *Availability*: true
 ```
 
 ### Example Output
 ```json
 {
-  "name": "Face Cream 'Moisturizing'",
-  "skin_type": "Dry Skin",
-  "ingredients": ["water", "glycerin", "hyaluronic acid", "jojoba oil"],
-  "rating": 4.5,
-  "price": 299.99,
-  "user_ratings": [5, 4, 5, 3, 4],
-  "recommendations": "Use in the morning and evening after cleansing your skin. Suitable for sensitive skin.",
-  "reviews": [
-    "This cream moisturizes my skin well. It absorbs easily!",
-    "No excess shine, perfect for autumn."
-  ],
-  "availability": true
-}
+    "product_name": "Face Cream \"Moisturizing\"",
+    "skin_type": "Dry Skin",
+    "ingredients": "Water, Glycerin, Hyaluronic Acid, Jojoba Oil",
+    "rating": 4.5,
+    "price": 299.99,
+    "user_ratings": [
+      5.0,
+      4.0,
+      5.0,
+      3.0,
+      4.0
+    ],
+    "recommendations": "Use in the morning and evening after cleansing the skin. Suitable for sensitive skin.",
+    "reviews": [
+      "1. \"This cream perfectly moisturizes my skin. It absorbs easily!\""
+    ],
+    "availability": false
+  }
 ```
 
