@@ -62,7 +62,7 @@ The input is processed line by line, and the parser extracts relevant data from 
     "reviews": [
       "1. \"This cream perfectly moisturizes my skin. It absorbs easily!\""
     ],
-    "availability": false
+    "availability": true
   }
 ```
 
