@@ -1,5 +1,10 @@
 # cosmetics_parser
 
+## Link
+https://crates.io/crates/cosmetics_parser
+
+https://docs.rs/cosmetics_parser/0.1.0/cosmetics_parser/
+
 ## Overview
 `cosmetics_parser` is a Rust-based parser designed to extract information from a cosmetics catalog written in a human-readable markdown format. The input consists of product descriptions that include details such as product name, skin type, ingredients, ratings, price, user reviews, and availability.
 
