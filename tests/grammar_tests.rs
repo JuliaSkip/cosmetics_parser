@@ -1,6 +1,7 @@
 use anyhow::anyhow;
 use cosmetics_parser::*;
 use pest::Parser;
+use std::fs;
 
 #[test]
 fn test_whitespace() -> anyhow::Result<()> {
@@ -30,6 +31,30 @@ fn test_space() -> anyhow::Result<()> {
 
     let pair = Grammar::parse(Rule::SPACE, "");
     assert!(pair.is_err(), "Expected error but got {:?}", pair);
+
+    Ok(())
+}
+#[test]
+fn test_parse_multiple_products_from_file() -> anyhow::Result<()> {
+    // Step 1: Load input from a file
+    let file_content = fs::read_to_string("src/input.txt")
+        .map_err(|e| anyhow!("Failed to read file: {}", e))?;
+
+    let pair = Grammar::parse(Rule::products, &file_content)?
+        .next()
+        .ok_or_else(|| anyhow!("No pair found"))?;
+
+    let product_pairs: Vec<_> = pair.into_inner().collect();
+
+    assert_eq!(product_pairs.len(), 7);
+
+    let product_1 = product_pairs.get(0).ok_or_else(|| anyhow!("First product not found"))?;
+    let product_1_str = product_1.as_str();
+    assert!(product_1_str.contains("Product 1"), "First product is incorrect");
+
+    let product_2 = product_pairs.get(1).ok_or_else(|| anyhow!("Second product not found"))?;
+    let product_2_str = product_2.as_str();
+    assert!(product_2_str.contains("Product 2"), "Second product is incorrect");
 
     Ok(())
 }
