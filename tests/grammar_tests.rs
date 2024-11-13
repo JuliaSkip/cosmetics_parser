@@ -36,7 +36,6 @@ fn test_space() -> anyhow::Result<()> {
 }
 #[test]
 fn test_parse_multiple_products_from_file() -> anyhow::Result<()> {
-    // Step 1: Load input from a file
     let file_content = fs::read_to_string("src/input.txt")
         .map_err(|e| anyhow!("Failed to read file: {}", e))?;
 
