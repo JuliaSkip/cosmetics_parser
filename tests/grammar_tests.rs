@@ -34,8 +34,9 @@ fn test_space() -> anyhow::Result<()> {
 
     Ok(())
 }
+
 #[test]
-fn test_parse_multiple_products_from_file() -> anyhow::Result<()> {
+fn test_products() -> anyhow::Result<()> {
     let file_content = fs::read_to_string("src/input.txt")
         .map_err(|e| anyhow!("Failed to read file: {}", e))?;
 
@@ -47,13 +48,33 @@ fn test_parse_multiple_products_from_file() -> anyhow::Result<()> {
 
     assert_eq!(product_pairs.len(), 7);
 
-    let product_1 = product_pairs.get(0).ok_or_else(|| anyhow!("First product not found"))?;
+    let product_1 = product_pairs.get(0).ok_or_else(|| anyhow!("1 product not found"))?;
     let product_1_str = product_1.as_str();
-    assert!(product_1_str.contains("Product 1"), "First product is incorrect");
+    assert!(product_1_str.contains("Product 1"), "1 product is incorrect");
 
-    let product_2 = product_pairs.get(1).ok_or_else(|| anyhow!("Second product not found"))?;
+    let product_2 = product_pairs.get(1).ok_or_else(|| anyhow!("2 product not found"))?;
     let product_2_str = product_2.as_str();
-    assert!(product_2_str.contains("Product 2"), "Second product is incorrect");
+    assert!(product_2_str.contains("Product 2"), "2 product is incorrect");
+
+    let product_3 = product_pairs.get(2).ok_or_else(|| anyhow!("3 product not found"))?;
+    let product_3_str = product_3.as_str();
+    assert!(product_3_str.contains("Product 3"), "3 product is incorrect");
+
+    let product_4 = product_pairs.get(3).ok_or_else(|| anyhow!("4 product not found"))?;
+    let product_4_str = product_4.as_str();
+    assert!(product_4_str.contains("Product 4"), "4 product is incorrect");
+
+    let product_5 = product_pairs.get(4).ok_or_else(|| anyhow!("5 product not found"))?;
+    let product_5_str = product_5.as_str();
+    assert!(product_5_str.contains("Product 5"), "5 product is incorrect");
+
+    let product_6 = product_pairs.get(5).ok_or_else(|| anyhow!("6 product not found"))?;
+    let product_6_str = product_6.as_str();
+    assert!(product_6_str.contains("Product 6"), "6 product is incorrect");
+
+    let product_7 = product_pairs.get(6).ok_or_else(|| anyhow!("7 product not found"))?;
+    let product_7_str = product_7.as_str();
+    assert!(product_7_str.contains("Product 7"), "7 product is incorrect");
 
     Ok(())
 }
